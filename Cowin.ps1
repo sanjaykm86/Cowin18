@@ -1,5 +1,7 @@
 ﻿Clear-Host
 
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+
 $CurrDir = Split-Path $MyInvocation.MyCommand.Definition
 ."$CurrDir\Telegram.ps1"
 #".C:\Users\Sanjay\OneDrive\CareerAndResume\StudyMaterials\Powershell\Scripts\Telegram.ps1"
