@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "child_process": "^1.0.2"
-  }
+  },
+
+  "scripts": {
+ 
+
+   
+
+    "start": "node Cowin18.js"
+   
+  
+    }
 }
