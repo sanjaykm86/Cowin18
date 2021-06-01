@@ -1,15 +1,9 @@
 {
   "dependencies": {
-    "child_process": "^1.0.2"
+    "child_process": "^1.0.2",
+    "node-powershell": "^4.0.0"
   },
-
   "scripts": {
- 
-
-   
-
     "start": "node Cowin18.js"
-   
-  
-    }
+  }
 }
