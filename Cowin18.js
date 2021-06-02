@@ -15,9 +15,8 @@ const shell = require('node-powershell');
 // let ps = new shell('./Cowin18.ps1')
 
 let ps = new shell({
-  executionPolicy: 'Bypass',
-  noProfile: true,
-  usePwsh:true
+  executionPolicy: 'Unrestricted',
+  noProfile: true
 });
 
 ps.addCommand('echo node-powershell')
