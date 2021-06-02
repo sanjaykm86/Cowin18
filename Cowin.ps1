@@ -1,6 +1,6 @@
 ﻿Clear-Host
 
-#Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 
 $CurrDir = Split-Path $MyInvocation.MyCommand.Definition
 ."$CurrDir\Telegram.ps1"

